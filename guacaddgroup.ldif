@@ -1,0 +1,7 @@
+DN: CN=TestGuacGroup,OU=Groups,OU=Alcatrash,DC=alcatrash,DC=local
+changetype: add
+CN: TestGuacGroup
+objectClass: guacConfigGroup
+guacConfigProtocol: rdp
+guacConfigParameter: hostname=host1
+guacConfigParameter: port=3389
